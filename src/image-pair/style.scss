@@ -1,0 +1,179 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+ :root{
+	 --cgOverlap: 48px;
+ }
+
+
+.wp-block-chu-gooding-project-image-pair-two{
+		display: grid;
+		mix-blend-mode: multiply;
+        max-width: unset;
+        padding: 0 var(--cg12Margin);
+		box-sizing: border-box;
+}
+
+
+.wp-block-chu-gooding-project-image-pair-two figure:first-child {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: var(--cg12Margin);
+	padding-right: var(--cg12Margin);
+	mix-blend-mode: multiply;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.wp-block-chu-gooding-project-image-pair-two figure:last-child {
+	margin-top: var(--cgOverlap);
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: var(--cg12Margin);
+	padding-right: var(--cg12Margin);
+	mix-blend-mode: multiply;
+}
+
+
+@media screen and (min-width: 700px) {
+
+	.wp-block-chu-gooding-project-image-pair-two figure:last-child {
+		padding: unset;
+		margin: unset;
+		// margin-top: auto;
+		// margin-bottom: auto;
+	}
+
+	.wp-block-chu-gooding-project-image-pair-two figure:first-child {
+		padding: unset;
+		margin: unset;
+		// margin-top: auto;
+		// margin-bottom: auto;
+	}
+
+	.wp-block-chu-gooding-project-image-pair-two {
+		display: grid;
+		mix-blend-mode: multiply;
+		grid-template-columns: 1fr 1fr;
+		margin-bottom: 100px;
+	} 
+
+	.wp-block-chu-gooding-project-image-pair-two.project__imagePair__distribution-3 {
+		grid-template-columns: 3fr 9fr;
+	}
+
+	.wp-block-chu-gooding-project-image-pair-two.project__imagePair__distribution-4 {
+		grid-template-columns: 4fr 8fr;
+	}
+
+	.wp-block-chu-gooding-project-image-pair-two.project__imagePair__distribution-6 {
+		grid-template-columns: 6fr 6fr;
+	}
+
+	.wp-block-chu-gooding-project-image-pair-two.project__imagePair__distribution-8 {
+		grid-template-columns: 8fr 4fr;
+	}
+
+	.wp-block-chu-gooding-project-image-pair-two.project__imagePair__distribution-9 {
+		grid-template-columns: 9fr 3fr;
+	}
+
+	.wp-block-chu-gooding-project-image-pair-two figure:first-child {
+		width: 100%;
+		height: 100%;
+		max-height: 85vh;
+		display: flex;
+		margin-right: calc(var(--cgOverlap) * -0.5);
+	}
+	
+	.wp-block-chu-gooding-project-image-pair-two figure:last-child {
+		width: 100%;
+		height: 100%;
+		max-height: 85vh;
+		display: flex;
+		margin-left: calc(var(--cgOverlap) * -0.5);
+	}
+	
+	.wp-block-chu-gooding-project-image-pair-two img {
+		margin: auto;
+		max-width: 100%;
+		max-height: 100%;
+		height: auto;
+		display: block;
+		width: auto;
+	}
+	
+	.wp-block-chu-gooding-project-image-pair-two figure:first-child img {
+		margin-right: 0;
+	}
+	
+	.wp-block-chu-gooding-project-image-pair-two figure:last-child img {
+		margin-left: 0;
+	}
+
+	.wp-block-chu-gooding-project-image-pair-two + .wp-block-chu-gooding-project-image-pair-two {
+		margin-top: 0px;
+	}
+
+	.single-project .wp-block-chu-gooding-project-image-pair-two,
+	.single-et .wp-block-chu-gooding-project-image-pair-two {
+		padding-left: var(--cg12Margin);
+		padding-right: var(--cg12Margin);
+	}
+}
+
+
+.wp-block-chu-gooding-project-image-pair-two + .wp-block-chu-gooding-project-image-pair-two {
+	margin-top: 48px;
+}
+
+// .project__imagePair + .project__imagePair,
+// .block + .project__imagePair,
+// .project__imagePair + .block {
+// 	margin-top: 0px;
+// 	// mix-blend-mode: multiply;
+// 	/* margin-top: cal(-1 * var(--cg12Margin)); */
+// }
+
+.wp-block-chu-gooding-project-image-pair-two figure:first-child,
+.wp-block-chu-gooding-project-image-pair-two figure:last-child {
+	mix-blend-mode: multiply;
+}
+
+
+//////////////////////
+
+//  .wp-block-chu-gooding-project-image-pair-two{
+// 	display: grid;
+//  }
+
+
+
+// @media screen and (min-width: 700px) {
+
+
+// 	.wp-block-chu-gooding-project-image-pair-two figure img,
+// 	.project__imagePair img {
+// 		margin: auto;
+// 	}
+	
+// 	.wp-block-chu-gooding-project-image-pair-two figure:first-child img,
+// 	.project__pairLeft img{
+// 		margin-right: 0;
+// 	}
+	
+// 	.wp-block-chu-gooding-project-image-pair-two figure:last-child img,
+// 	.project__pairRight img{
+// 		margin-left: 0;
+// 	}
+
+// 	.wp-block-chu-gooding-project-image-pair-two + .wp-block-chu-gooding-project-image-pair-two,
+// 	.project__imagePair + .project__imagePair{
+// 		margin-top: 0px;
+// 	}
+// }

@@ -1,0 +1,39 @@
+<?php
+// This file is generated. Do not modify it manually.
+return array(
+	'image-pair' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'chu-gooding/project-image-pair-two',
+		'version' => '0.1.0',
+		'title' => 'C , G: Project Image Pair 2.0',
+		'category' => 'chu-gooding-blocks',
+		'icon' => 'format-image',
+		'description' => 'Block for displaying two images side-by-side',
+		'example' => array(
+			
+		),
+		'supports' => array(
+			'html' => false,
+			'anchor' => true,
+			'align' => array(
+				'full'
+			)
+		),
+		'attributes' => array(
+			'align' => array(
+				'type' => 'string',
+				'default' => 'full'
+			),
+			'distribution' => array(
+				'type' => 'string',
+				'default' => '6'
+			)
+		),
+		'textdomain' => 'image-pair-two',
+		'editorScript' => 'file:./index.js',
+		'editorStyle' => 'file:./index.css',
+		'style' => 'file:./style-index.css',
+		'viewScript' => 'file:./view.js'
+	)
+);
