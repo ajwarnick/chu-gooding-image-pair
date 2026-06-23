@@ -3,7 +3,7 @@
  * Plugin Name:       C , G: Project Image Pair 2.0
  * Description:       Block for displaying two images side-by-side
  * Version:           1.6.0
- * Requires at least: 7.0
+ * Requires at least: 6.9
  * Requires PHP:      8.3
  * Author:            The WordPress Contributors
  * License:           GPL-2.0-or-later
